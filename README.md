@@ -10,7 +10,7 @@ Simple fivem external ESP / Aimbot and ...
 
 #### its undetect ?
 
-?
+Ofc no 
 
 #### i can make a p2c with this src?
 
