@@ -158,7 +158,7 @@ void i_overlay::setup_window()
 		LoadCursor(nullptr, IDC_ARROW),
 		nullptr,
 		nullptr,
-		("Chrome"),
+		("Top"),
 		LoadIcon(nullptr, IDI_APPLICATION)
 	};
 
@@ -167,7 +167,7 @@ void i_overlay::setup_window()
 
 	RegisterClassExA(&wcex);
 
-	MyWnd = CreateWindowA(("Chrome"), ("Chrome"), WS_POPUP, Rect.left, Rect.top, Rect.right, Rect.bottom, NULL, NULL, wcex.hInstance, NULL);
+	MyWnd = CreateWindowA(("Top"), ("Top"), WS_POPUP, Rect.left, Rect.top, Rect.right, Rect.bottom, NULL, NULL, wcex.hInstance, NULL);
 	SetWindowLong(MyWnd, GWL_EXSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
 	SetLayeredWindowAttributes(MyWnd, RGB(0, 0, 0), 255, LWA_ALPHA);
 
